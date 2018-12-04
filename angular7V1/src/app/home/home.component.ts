@@ -27,6 +27,6 @@ export class HomeComponent implements OnInit {
         }
         console.log(this.loginForm.value.username)
 
-        alert('SUCCESS!! :-)')
+        alert('SUCCESS!! :-)') 
   }
 }
