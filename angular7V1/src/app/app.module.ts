@@ -11,6 +11,14 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { HttpClientModule} from '@angular/common/http';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeaderComponent } from './common/header/header.component';
+import { FooterComponent } from './common/footer/footer.component';
+import { SupplierComponent } from './supplier/supplier.component';
+import { SupplierListComponent } from './supplier/supplier-list/supplier-list.component';
+
+// import {}
 
 @NgModule({
   declarations: [
@@ -18,7 +26,14 @@ import { ContactComponent } from './contact/contact.component';
     NavComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    DashboardComponent,
+    HeaderComponent,
+    FooterComponent,
+    SupplierComponent,
+    SupplierListComponent
+
+
   ],
   imports: [
     BrowserModule,
@@ -28,7 +43,8 @@ import { ContactComponent } from './contact/contact.component';
     MatCheckboxModule,
     MatInputModule,
     MatRippleModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
 
   ],
   providers: [],
